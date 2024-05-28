@@ -57,7 +57,7 @@ public class FacultyForm extends JDialog {
             }
 
                //method of adding faculty to database
-            private void addFacultyToDB(String email, String password, String roll) {
+               private void addFacultyToDB(String email, String password, String roll) {
                final String DB_URL = "jdbc:mysql://localhost:3306/facultyregistration";
                final String USER = "root";
                final String PASS = "Muslimwal@2004";
@@ -89,6 +89,14 @@ public class FacultyForm extends JDialog {
             }
         });
         this.setVisible(true);
+        tfEmail.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (tfEmail.getText().isEmpty()) {
+                    JOptionPane.showMessageDialog(FacultyForm.this, "Please fill all fields", "Error", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+        });
     }
 
     public static void main(String[] args) {
