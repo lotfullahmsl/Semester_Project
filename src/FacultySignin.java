@@ -9,9 +9,10 @@ import java.sql.ResultSet;
 public class FacultySignin extends JDialog {
     private JPanel SigninPanel;
     private JPanel DesignPanel;
+    private JPanel AdminDashBoardPannel; //we have added another panel it will be show after signin
     private JTextField tfEmail;
     private JPasswordField tfPassword;
-    private JComboBox<String> cbRoll;
+    private JComboBox <String> cbRoll;
     private JButton btSignin;
     private JButton btExit;
 
@@ -64,6 +65,8 @@ public class FacultySignin extends JDialog {
 
                     if (Reader.next()) {
                         JOptionPane.showMessageDialog(FacultySignin.this, "Faculty signed in successfully", "Success", JOptionPane.INFORMATION_MESSAGE);
+                        dispose();
+                        AdminDashboardForm adminDashboardForm = new AdminDashboardForm(null);
 
                     }
 

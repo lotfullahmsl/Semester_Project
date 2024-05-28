@@ -57,7 +57,7 @@ public class FacultyForm extends JDialog {
             }
 
                //method of adding faculty to database
-            private void addFacultyToDB(String email, String password, String roll) {
+               private void addFacultyToDB(String email, String password, String roll) {
                final String DB_URL = "jdbc:mysql://localhost:3306/facultyregistration";
                final String USER = "root";
                final String PASS = "Muslimwal@2004";
