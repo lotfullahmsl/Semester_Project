@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FacultyForm">
+  <grid id="27dc6" binding="FacultyPanel" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="100" width="524" height="406"/>
+    </constraints>
+    <properties>
+      <background color="-342378"/>
+      <font name="Copperplate Gothic Light"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="18ec6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Light"/>
+          <text value="Roll   "/>
+        </properties>
+      </component>
+      <component id="d5f6f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Light"/>
+          <text value="Confirm Password"/>
+        </properties>
+      </component>
+      <component id="a41be" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Light"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="5a25e" class="javax.swing.JTextField" binding="tfEmail">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="66493" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Light"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="1c093" class="javax.swing.JPasswordField" binding="tfCPassword">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a6f7f" class="javax.swing.JButton" binding="tbSignin">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Light"/>
+          <text value="Sign in page"/>
+        </properties>
+      </component>
+      <component id="e5a4b" class="javax.swing.JPasswordField" binding="tfPassword">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bbbc3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <icon value="signup.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="45345" class="javax.swing.JComboBox" binding="cbRoll">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="82719" class="javax.swing.JButton" binding="tbRegester">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Light"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="9cfaa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="24" style="1"/>
+          <text value="      Registration"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
