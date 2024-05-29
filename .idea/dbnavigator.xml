@@ -6,7 +6,7 @@
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -24,13 +24,18 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="389b2032-5592-47d7-989c-0ae299532066" object-ref="schemas/projectdata/tables/courses" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="389b2032-5592-47d7-989c-0ae299532066" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="389b2032-5592-47d7-989c-0ae299532066" dataset="facultyregistration.data" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="389b2032-5592-47d7-989c-0ae299532066" dataset="projectdata.bse2a" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="389b2032-5592-47d7-989c-0ae299532066" dataset="projectdata.courses" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="389b2032-5592-47d7-989c-0ae299532066" dataset="projectdata.department" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -463,7 +468,7 @@
     <operation-settings>
       <transactions>
         <uncommitted-changes>
-          <on-project-close value="ASK" />
+          <on-project-close value="ROLLBACK" />
           <on-disconnect value="ASK" />
           <on-autocommit-toggle value="ASK" />
         </uncommitted-changes>

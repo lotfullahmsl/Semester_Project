@@ -40,7 +40,7 @@ public class AddingRoom extends JDialog{
 
                try {
                    Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
-                        String query = "INSERT INTO rooms (Rooms) VALUES (?)";
+                        String query = "INSERT INTO room (Room) VALUES (?)";
                         PreparedStatement stmt = conn.prepareStatement(query);
                         stmt.setString(1, room);
                         stmt.executeUpdate();
@@ -48,7 +48,7 @@ public class AddingRoom extends JDialog{
                         conn.close();
                     } catch (Exception e) {
                         e.printStackTrace();
-                        JOptionPane.showMessageDialog(AddingRoom.this, "Error in adding room", "Error", JOptionPane.ERROR_MESSAGE);
+                        JOptionPane.showMessageDialog(AddingRoom.this, "Room Already Added", "Error", JOptionPane.ERROR_MESSAGE);
                     }
             }
         });
