@@ -32,20 +32,20 @@ public class StudentDashboard extends JDialog{
                     return;
                 }
                 else if (choice.equals("Check Time Table")) {
-                    dispose();
+                   // dispose();
                     SectionWiseTT sectionWiseTT = new SectionWiseTT(null);
                 } else if (choice.equals("Check Announcements")) {
-                    dispose();
+                   // dispose();
                     CheckingAnnouncment checkingAnnouncment = new CheckingAnnouncment(null);
 
                 } else if (choice.equals("Register A Course")) {
-                    dispose();
+                   // dispose();
                     RegisterStudents registerStudents = new RegisterStudents(null);
                 } else if (choice.equals("Check Scores")) {
-                    dispose();
+                   // dispose();
                     CheckScore checkScore = new CheckScore(null);
                 } else if (choice.equals("Check Attendence")) {
-                    dispose();
+                   // dispose();
                   DisplayAttendence displayAttendence = new DisplayAttendence(null);
                 }
             }

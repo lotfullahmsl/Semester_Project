@@ -5,7 +5,9 @@
     <constraints>
       <xy x="20" y="20" width="623" height="498"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-3355393"/>
+    </properties>
     <border type="none"/>
     <children>
       <component id="b927a" class="javax.swing.JLabel">
@@ -46,7 +48,7 @@
         </constraints>
         <properties>
           <font name="Century" size="16" style="1"/>
-          <text value="3. Register to A Course"/>
+          <text value="3. Register to a Course"/>
         </properties>
       </component>
       <component id="6fa44" class="javax.swing.JLabel">

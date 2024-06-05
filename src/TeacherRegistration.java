@@ -67,6 +67,7 @@ public class TeacherRegistration extends JDialog {
         btLoginpage.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                dispose();
                 TeacherLogin teacherLogin = new TeacherLogin(null);
             }
         });

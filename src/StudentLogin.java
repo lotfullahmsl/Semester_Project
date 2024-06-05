@@ -52,6 +52,7 @@ public class StudentLogin extends JDialog{
             ResultSet rs = stmt.executeQuery();
             if (rs.next()) {
                 JOptionPane.showMessageDialog(StudentLogin.this, "Login successful", "Success", JOptionPane.INFORMATION_MESSAGE);
+                dispose();
                 StudentDashboard studentDashboard = new StudentDashboard(null);
             } else {
                 JOptionPane.showMessageDialog(StudentLogin.this, "Invalid credentials", "Error", JOptionPane.ERROR_MESSAGE);

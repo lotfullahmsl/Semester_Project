@@ -13,14 +13,14 @@ public class StudentRegistration extends JDialog {
     private JPasswordField tfCPassword;
     private JPanel StudentLoginPanel;
 
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/projectdata"; // Update with your DB URL
-    private static final String DB_USER = "root"; // Update with your DB username
-    private static final String DB_PASSWORD = "Muslimwal@2004"; // Update with your DB password
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/projectdata";
+    private static final String DB_USER = "root";
+    private static final String DB_PASSWORD = "Muslimwal@2004";
 
     public StudentRegistration(JFrame parent) {
         super(parent, "Student Registration", true);
         setContentPane(StudentRegisterPanel);
-        setSize(500, 400);
+        setSize(550, 400);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
 
@@ -86,6 +86,7 @@ public class StudentRegistration extends JDialog {
         tbSignin.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                dispose();
                 StudentLogin studentLogin = new StudentLogin(null);
             }
         });

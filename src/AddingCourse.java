@@ -87,6 +87,7 @@ public class AddingCourse extends JDialog {
                     if (checkDepartmentAndRoom(department, room)) {
                         addCourse(courseName, courseID, courseType, teacherName, timing, credit, day, classType, department, room);
                         JOptionPane.showMessageDialog(AddingCourse.this, "Course added successfully.");
+                        dispose();
                     } else {
                         JOptionPane.showMessageDialog(AddingCourse.this, "Department or room does not exist.");
                     }

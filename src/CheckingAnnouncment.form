@@ -5,7 +5,9 @@
     <constraints>
       <xy x="20" y="20" width="927" height="511"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-3355393"/>
+    </properties>
     <border type="none"/>
     <children>
       <vspacer id="18d37">
@@ -50,7 +52,9 @@
         <constraints>
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3355393"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="58bd" class="javax.swing.JTable" binding="table">
@@ -68,7 +72,9 @@
         <children>
           <component id="5e10d" class="javax.swing.JTextArea" binding="ta1">
             <constraints/>
-            <properties/>
+            <properties>
+              <background color="-3355393"/>
+            </properties>
           </component>
         </children>
       </scrollpane>

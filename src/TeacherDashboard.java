@@ -39,15 +39,15 @@ public class TeacherDashboard extends JDialog {
                     return;
                 }
                else if (choice.equals("Mark Attendance")) {
-                    dispose();
+                   // dispose();
                     AttendenceTeacher attendenceTeacher = new AttendenceTeacher(null);
 
                 } else if (choice.equals("Check Time Table")) {
-                   dispose();
+                  // dispose();
                    SectionWiseTT sectionWiseTT = new SectionWiseTT(null);
 
                 } else if (choice.equals("Announcement")) {
-                   dispose();
+                  // dispose();
                     TeacherAnoncment teacherAnoncment = new TeacherAnoncment(null);
                 } else if (choice.equals("Enter Student Marks")) {
                    StudentScores studentScores = new StudentScores(null);

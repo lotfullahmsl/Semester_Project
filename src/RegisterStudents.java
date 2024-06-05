@@ -39,6 +39,7 @@ public class RegisterStudents extends JDialog {
                         {
                             if (registerStudent(enrolment, course, department)) {
                                 JOptionPane.showMessageDialog(RegisterStudents.this, "Student registered successfully.");
+                                dispose();
                             }
                             else {
                                 JOptionPane.showMessageDialog(RegisterStudents.this, "Student could not be registered.");

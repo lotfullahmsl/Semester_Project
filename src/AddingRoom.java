@@ -45,6 +45,7 @@ public class AddingRoom extends JDialog{
                         stmt.setString(1, room);
                         stmt.executeUpdate();
                         JOptionPane.showMessageDialog(AddingRoom.this, "Room added successfully", "Success", JOptionPane.INFORMATION_MESSAGE);
+                        dispose();
                         conn.close();
                     } catch (Exception e) {
                         e.printStackTrace();

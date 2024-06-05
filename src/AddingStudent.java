@@ -127,6 +127,7 @@ public class AddingStudent extends JDialog {
                         boolean added = addStudent(enrolment, department);
                         if (added) {
                             JOptionPane.showMessageDialog(AddingStudent.this, "Student added successfully.");
+                            dispose();
                         } else {
                             JOptionPane.showMessageDialog(AddingStudent.this, "Failed to add student.");
                         }
