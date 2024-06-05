@@ -24,14 +24,13 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="389b2032-5592-47d7-989c-0ae299532066" object-ref="schemas/projectdata/tables/courses" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="389b2032-5592-47d7-989c-0ae299532066" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="389b2032-5592-47d7-989c-0ae299532066" dataset="projectdata.announcetable" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="389b2032-5592-47d7-989c-0ae299532066" dataset="facultyregistration.data" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="389b2032-5592-47d7-989c-0ae299532066" dataset="projectdata.bse2a" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="389b2032-5592-47d7-989c-0ae299532066" dataset="projectdata.courses" active-filter-id="EMPTY_FILTER" />

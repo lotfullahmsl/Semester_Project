@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AddingStudent">
+  <grid id="27dc6" binding="AddingStudentPanel" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="574" height="406"/>
+    </constraints>
+    <properties>
+      <background color="-1120819"/>
+      <font name="Comic Sans MS" size="16" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9d52" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Adding Student.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e98cd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Department"/>
+        </properties>
+      </component>
+      <component id="d7a88" class="javax.swing.JTextField" binding="tfDepartment">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="16"/>
+        </properties>
+      </component>
+      <component id="9392" class="javax.swing.JTextField" binding="tfEnrolment">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="16"/>
+        </properties>
+      </component>
+      <component id="d821f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="36" style="1"/>
+          <text value="Add Students"/>
+        </properties>
+      </component>
+      <component id="bf81e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Enrolment No"/>
+        </properties>
+      </component>
+      <component id="be15a" class="javax.swing.JButton" binding="btAdd">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Add"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

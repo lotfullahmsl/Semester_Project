@@ -27,7 +27,7 @@ public class FacultyForm extends JDialog {
         cbRoll.addItem("Select Roll");
         cbRoll.addItem("Head of Department");
         cbRoll.addItem("Student Adviser");
-        cbRoll.addItem("Teacher");
+       // cbRoll.addItem("Teacher");
 
 
         tbRegester.addActionListener(new ActionListener() {
@@ -88,7 +88,7 @@ public class FacultyForm extends JDialog {
                 FacultySignin facultySignin = new FacultySignin(null);
             }
         });
-        this.setVisible(true);
+
         tfEmail.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -97,9 +97,11 @@ public class FacultyForm extends JDialog {
                 }
             }
         });
+        this.setVisible(true);
     }
 
     public static void main(String[] args) {
+
         FacultyForm facultyForm = new FacultyForm(null);
     }
 }

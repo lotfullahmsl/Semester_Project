@@ -6,6 +6,10 @@ public class MainForm extends JDialog{
     private JPanel MainPanel;
     private JButton btFaculty;
     private JButton btStudent;
+    private JButton btnTeacher;
+    private JPanel StudentPanel;
+   // private JPanel TeacherRegistrationPanel;
+    private JPanel TeacherPanel;
 
     public MainForm (JFrame parent) {
         super(parent, "Main Form", true);
@@ -27,7 +31,22 @@ public class MainForm extends JDialog{
             }
         });
 
-        this.setVisible(true);
+
+        btStudent.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                StudentRegistration studentRegistration = new StudentRegistration(null);
+            }
+        });
+
+        btnTeacher.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                TeacherRegistration teacherRegistration = new TeacherRegistration(null);
+            }
+        });
+        setVisible(true);
+
     }
 
 

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AttendenceTeacher">
+  <grid id="27dc6" binding="Panel" layout-manager="GridLayoutManager" row-count="12" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="817" height="522"/>
+    </constraints>
+    <properties>
+      <font name="Century" size="16" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2b50a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="36" style="1"/>
+          <text value="Mark Attendence"/>
+        </properties>
+      </component>
+      <component id="d033f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="18" style="1"/>
+          <text value="Chose Section"/>
+        </properties>
+      </component>
+      <component id="8a1e8" class="javax.swing.JTextField" binding="tfSection">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+        </properties>
+      </component>
+      <scrollpane id="9066e" binding="ScrollPanel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4dc04" class="javax.swing.JTable" binding="StudentTable">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="99388" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+          <text value="Course Name"/>
+        </properties>
+      </component>
+      <component id="c2dc1" class="javax.swing.JTextField" binding="tfName">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="e804e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+          <text value="Teacher Name"/>
+        </properties>
+      </component>
+      <component id="4ef26" class="javax.swing.JTextField" binding="tfTName">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="28c85" class="javax.swing.JButton" binding="btSelect">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+          <text value="Load"/>
+        </properties>
+      </component>
+      <scrollpane id="1ef8f" binding="CourseinfoPanel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="57ba" class="javax.swing.JTable" binding="CourseInfoTable">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="61214" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+          <text value="Course Inforamtion "/>
+        </properties>
+      </component>
+      <component id="c545f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+          <text value="Mark Attendence"/>
+        </properties>
+      </component>
+      <component id="87673" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+          <text value="Day"/>
+        </properties>
+      </component>
+      <component id="680d0" class="javax.swing.JComboBox" binding="tfDay">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="805cb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+          <text value="Time"/>
+        </properties>
+      </component>
+      <component id="3d73" class="javax.swing.JComboBox" binding="tfTiming">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="feaa4" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="16" style="1"/>
+          <text value="Save"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

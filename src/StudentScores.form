@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StudentScores">
+  <grid id="27dc6" binding="ScorePanel" layout-manager="GridLayoutManager" row-count="16" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="705" height="693"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="2854a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="score.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="9cce8">
+        <constraints>
+          <grid row="1" column="3" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="d3c59" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="36" style="1"/>
+          <text value="Adding Student Score Record"/>
+        </properties>
+      </component>
+      <component id="884a5" class="javax.swing.JTextField" binding="tfDepartment">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="89862" class="javax.swing.JTextField" binding="tfEnrollment">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="639c7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Department"/>
+        </properties>
+      </component>
+      <component id="3b052" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Course"/>
+        </properties>
+      </component>
+      <component id="8978f" class="javax.swing.JTextField" binding="tfCourse">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="3b006" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Assignment 1"/>
+        </properties>
+      </component>
+      <component id="32670" class="javax.swing.JTextField" binding="tfAsn1">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="73a58" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Quiz 1"/>
+        </properties>
+      </component>
+      <component id="22a41" class="javax.swing.JTextField" binding="tfQ1">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="d47e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Assignment 2"/>
+        </properties>
+      </component>
+      <component id="4786d" class="javax.swing.JTextField" binding="tfAns2">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="aa62e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Quiz 2"/>
+        </properties>
+      </component>
+      <component id="d8dd3" class="javax.swing.JTextField" binding="tfQ2">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="f3729" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Mid Term"/>
+        </properties>
+      </component>
+      <component id="74194" class="javax.swing.JTextField" binding="tfMid">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="5813a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Assignment 3"/>
+        </properties>
+      </component>
+      <component id="79354" class="javax.swing.JTextField" binding="tfAsn3">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="1a118" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Quiz 3"/>
+        </properties>
+      </component>
+      <component id="51c3e" class="javax.swing.JTextField" binding="tfQ3">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="93571" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Assignment 4"/>
+        </properties>
+      </component>
+      <component id="d09c1" class="javax.swing.JTextField" binding="tfAsn4">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="23eb3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Quiz 4"/>
+        </properties>
+      </component>
+      <component id="bb73b" class="javax.swing.JTextField" binding="tfQ4">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="dd85a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Final Exam"/>
+        </properties>
+      </component>
+      <component id="8937" class="javax.swing.JTextField" binding="tfFinal">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="84f6e" class="javax.swing.JButton" binding="btAdd">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="9e0d2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Enrollment"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
