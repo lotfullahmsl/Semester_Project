@@ -47,6 +47,7 @@ public class AddingDepartment extends JDialog{
                     stmt.setString(1, department);
                     stmt.executeUpdate();
                     JOptionPane.showMessageDialog(AddingDepartment.this, "Department added successfully", "Success", JOptionPane.INFORMATION_MESSAGE);
+                    dispose();
 
                     String query2 = "CREATE TABLE `projectdata`.`"+department+"` (\n" +
                             "  `CourseName` VARCHAR(100) NOT NULL,\n" +

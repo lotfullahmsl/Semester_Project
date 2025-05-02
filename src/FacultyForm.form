@@ -6,7 +6,7 @@
       <xy x="20" y="100" width="524" height="406"/>
     </constraints>
     <properties>
-      <background color="-342378"/>
+      <background color="-3355393"/>
       <font name="Copperplate Gothic Light"/>
     </properties>
     <border type="none"/>
@@ -16,7 +16,7 @@
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Copperplate Gothic Light"/>
+          <font name="Century" size="16" style="1"/>
           <text value="Roll   "/>
         </properties>
       </component>
@@ -25,7 +25,7 @@
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Copperplate Gothic Light"/>
+          <font name="Century" size="16" style="1"/>
           <text value="Confirm Password"/>
         </properties>
       </component>
@@ -34,7 +34,7 @@
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Copperplate Gothic Light"/>
+          <font name="Century" size="16" style="1"/>
           <text value="Password"/>
         </properties>
       </component>
@@ -51,7 +51,7 @@
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Copperplate Gothic Light"/>
+          <font name="Century" size="16" style="1"/>
           <text value="Email"/>
         </properties>
       </component>
@@ -68,7 +68,7 @@
           <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Copperplate Gothic Light"/>
+          <font name="Century" size="16" style="1"/>
           <text value="Sign in page"/>
         </properties>
       </component>
@@ -101,7 +101,7 @@
           <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Copperplate Gothic Light"/>
+          <font name="Century" size="16" style="1"/>
           <text value="Register"/>
         </properties>
       </component>
@@ -110,7 +110,7 @@
           <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Comic Sans MS" size="24" style="1"/>
+          <font name="Century" size="24" style="1"/>
           <text value="      Registration"/>
         </properties>
       </component>

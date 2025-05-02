@@ -11,6 +11,15 @@ public class AdminDashboardForm extends JDialog{
     private JPanel AddingCoursePannel;
     private JPanel AddingRoomPannel;
     private JPanel AddingDepartment;
+    private JPanel RemoveCoursePannel;
+    private JPanel SectionWiseTimeTablePannel;
+    private JPanel DayWiseTTPannel;
+    private JPanel RoomWiseTTPannel;
+    private JPanel TeacherWiseTTPannel;
+    private JPanel AddStudentPannel;
+    private JPanel RemoveStudentPannel;
+    private JPanel RemoveRoomPannel;
+    private JPanel SearchStudentRecordPannel;
 
     public AdminDashboardForm(JFrame parent) {
         super(parent, "Admin Dashboard", true);
@@ -33,9 +42,7 @@ public class AdminDashboardForm extends JDialog{
         cbChoise.addItem("9. Add Room");
         cbChoise.addItem("10. Remove Room");
         cbChoise.addItem("11. Add Department");
-        cbChoise.addItem("12. Remove Department");
-        cbChoise.addItem("13. Search Student Record");
-        cbChoise.addItem("14. Check Amount of Students");
+        cbChoise.addItem("12. Search Student Avilibility");
 
 
         btCancel.addActionListener(new ActionListener() {
@@ -59,45 +66,41 @@ public class AdminDashboardForm extends JDialog{
                     AddingCourse addingCourse = new AddingCourse(null);
                 }
                 if (choise.equals("2. Remove Course")) {
-                    // RemoveCourseForm removeCourseForm = new RemoveCourseForm(null);
+                    RemoveCourse removeCourse = new RemoveCourse(null);
                 }
                 if (choise.equals("3. Section Wise Time Table")) {
-                    // SectionWiseTimeTableForm sectionWiseTimeTableForm = new SectionWiseTimeTableForm(null);
+                    SectionWiseTT sectionWiseTT = new SectionWiseTT(null);
                 }
                 if (choise.equals("4. Day Wise Time Table")) {
-                    // DayWiseTimeTableForm dayWiseTimeTableForm = new DayWiseTimeTableForm(null);
+                    DayWiseTT dayWiseTT = new DayWiseTT(null);
+
                 }
                 if (choise.equals("5. Room Wise Time Table")) {
-                    // RoomWiseTimeTableForm roomWiseTimeTableForm = new RoomWiseTimeTableForm(null);
+                    RoomWiseTT roomWiseTT = new RoomWiseTT(null);
                 }
                 if (choise.equals("6. Teacher Wise Time Table")) {
-                    // TeacherWiseTimeTableForm teacherWiseTimeTableForm = new TeacherWiseTimeTableForm(null);
+                    TeacherWiseTT teacherWiseTT = new TeacherWiseTT(null);
                 }
                 if (choise.equals("7. Add Student")) {
-                    // AddStudentForm addStudentForm = new AddStudentForm(null);
+                    AddingStudent addingStudent = new AddingStudent(null);
                 }
                 if (choise.equals("8. Remove Student")) {
-                    // RemoveStudentForm removeStudentForm = new RemoveStudentForm(null);
+                    RemoveStudent removeStudent = new RemoveStudent(null);
                 }
                 if (choise.equals("9. Add Room")) {
                     AddingRoom addingRoom = new AddingRoom(null);
 
                 }
                 if (choise.equals("10. Remove Room")) {
-                    // RemoveRoomForm removeRoomForm = new RemoveRoomForm(null);
+                    RemoveRoom removeRoom = new RemoveRoom(null);
                 }
                 if (choise.equals("11. Add Department")) {
                     AddingDepartment addDepartment = new AddingDepartment(null);
                 }
-                if (choise.equals("12. Remove Department")) {
-                    // RemoveDepartmentForm removeDepartmentForm = new RemoveDepartmentForm(null);
+                if (choise.equals("12. Search Student Avilibility")) {
+                    SearchStudent searchStudent = new SearchStudent(null);
                 }
-                if (choise.equals("13. Search Student Record")) {
-                    // SearchStudentRecordForm searchStudentRecordForm = new SearchStudentRecordForm(null);
-                }
-                if (choise.equals("14. Check Amount of Students")) {
-                    // CheckAmountOfStudentsForm checkAmountOfStudentsForm = new CheckAmountOfStudentsForm(null);
-                }
+
             }
         });
         setVisible(true);

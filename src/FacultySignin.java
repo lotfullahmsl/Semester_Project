@@ -27,7 +27,6 @@ public class FacultySignin extends JDialog {
         cbRoll.addItem("Select Roll");
         cbRoll.addItem("Head of Department");
         cbRoll.addItem("Student Adviser");
-        cbRoll.addItem("Teacher");
 
         btSignin.addActionListener(new ActionListener() {
             @Override
